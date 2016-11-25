@@ -37,9 +37,9 @@
 use Closure;
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;
-use Illuminate\Routing\Router as LaravelRouter;
+use Dingo\Api\Routing\Router as DingoRouter;
 
-class Router extends LaravelRouter
+class Router extends DingoRouter
 {
     /**
      * Version of the cache key
